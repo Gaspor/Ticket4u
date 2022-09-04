@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="header">
+        <script>
+            $(function () {
+                $("#header").load("../components/header/header.html");
+            });
+        </script>
+    </header>
+
+    <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class=""
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class=""
+            aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class=""
+            aria-label="Slide 4"></button>
+    </div>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner" style="padding-top: 4rem;">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row marcador align-items-center">
+                    <div class="col mx-auto text-center">
+                        <img class="img-responsive"
+                            src="https://love.doghero.com.br/wp-content/uploads/2018/12/golden-retriever-1.png"
+                            class="d-block w-1000" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="row marcador align-items-center">
+                    <div class="col mx-auto text-center">
+                        <img class="img-responsive" src="https://www.hypeness.com.br/1/2020/07/balltze-grande.jpg"
+                            class="d-block w-1000" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row marcador align-items-center">
+                    <div class="col mx-auto text-center">
+                        <img class="img-responsive"
+                            src="https://s2.glbimg.com/epHyTIo2TSkHZ43DXZPZoeC8a_M=/0x0:959x540/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/h/J/Ui4XL0So6yEilj6DeGXg/memedoge.jpg"
+                            class="d-block w-1000" alt="...">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                <div class="row marcador align-items-center">
+                    <div class="col mx-auto text-center">
+                        <img class="img-responsive"
+                            src="https://i1.wp.com/omarciano.com.br/wp-content/uploads/2019/07/nbc.png?fit=1026%2C730&ssl=1"
+                            class="d-block w-1000" alt="...">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+</body>
+
+</html>
