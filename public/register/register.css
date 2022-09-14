@@ -9,6 +9,7 @@ input {
 .register {
 
     margin: auto;
+    margin-top: -130px;
     width: 600px;
     height: 700px;
     background: #FFFFFF;
