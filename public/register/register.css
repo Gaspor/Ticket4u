@@ -22,7 +22,7 @@ input {
 .input-type-email {
 
     width: 100px;
-    margin-left: 100px;
+    margin-left: 80px;
 
 }
 
@@ -69,7 +69,7 @@ input {
 
     width: 5px;
     height: 38px;
-    margin-left: 100px;
+    margin-left: 80px;
 
 }
 
@@ -104,7 +104,7 @@ input {
 
     width: 5px;
     height: 38px;
-    margin-left: 350px;
+    margin-left: 330px;
 
 }
 
@@ -114,12 +114,83 @@ input {
 
 }
 
+.question {
 
+    width: 100px;
+    margin-left: 80px;
+
+}
+
+.text-question {
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+#button-juridica{
+    margin-top: -170px;
+}
+
+#button-fisica{
+    margin-top: -170px;
+    margin-left: 100px;
+}
+
+.text-cnpj {
+
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    color: #000000;
+    margin-top: -120px;
+    margin-left: -120px;
+
+}
+
+.input-cnpj {
+
+    width: 5px;
+    height: 38px;
+    margin-left: 90px;
+
+}
+
+.input-cnpj input {
+
+    margin-top: -163px;
+
+}
+
+.text-user {
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    color: #000000;
+    margin-top: -45px;
+    margin-left: -50px;
+
+}
+
+.input-username{
+    visibility: hidden;
+    width: 5px;
+    height: 38px;
+    margin-left: 90px;
+}
+
+.input-username input {
+
+    margin-top: -163px;
+
+}
 
 /* Altura do button */
 .cadastrar-button {
 
-    margin-top: 100px;
+    margin-top: 80px;
 
 }
 
