@@ -5,6 +5,34 @@ input {
 
 }
 
+body{
+    max-height: 250px;
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 6px solid rgba(0, 0, 0, 0.18);
+    border-left: 0;
+    border-right: 0;
+    background-color: #8070d4;
+  }
+
+
+
 /* Fundo tela login */
 .register {
 
@@ -128,6 +156,7 @@ input {
     margin-top: 70px;
     font-size: 20px;
     color: #000000;
+    margin-left: -60px;
     
 }
 
@@ -162,6 +191,30 @@ input {
 .input-cnpj input {
 
     margin-top: -163px;
+
+}
+
+.text-empresa {
+
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    color: #000000;
+    margin-top: -210px;
+    margin-left: 190px;
+
+}
+
+.input-empresa {
+
+    width: 5px;
+    height: 38px;
+
+}
+
+.input-empresa input {
+
+    margin-top: -173px;
 
 }
 
