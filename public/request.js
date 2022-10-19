@@ -8,7 +8,6 @@ async function request(data, endpoint, method) {
             'Accept': '/',
             'Content-Type': 'application/json' 
         },
-        credentials: 'same-origin',
         body: JSON.stringify(data)
     });
 
