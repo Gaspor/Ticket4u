@@ -1,7 +1,6 @@
 async function request(data, endpoint, method) {
-    sessionStorage.setItem("TTTT", "aaaaa");
-    const url = 'http://localhost:3000/api/v1/' + endpoint;
-    //const url = 'https://gaspor-apis.herokoapp.com/api/v1/' + endpoint;
+    //const url = 'http://localhost:3000/api/v1/' + endpoint;
+    const url = 'https://gaspor-apis.herokoapp.com/api/v1/' + endpoint;
     const response = await fetch(url, {
         method: method, 
         headers: {
@@ -9,7 +8,6 @@ async function request(data, endpoint, method) {
             'Accept': '/',
             'Content-Type': 'application/json' 
         },
-        credentials: 'same-origin',
         body: JSON.stringify(data)
     });
 
