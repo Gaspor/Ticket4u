@@ -43,7 +43,7 @@ async function registerUser() {
    const cnpj = document.getElementById('cnpj').value.trim();
    const nome = !produtor ? document.getElementById('name').value : document.getElementById('name_empresa').value;
 
-   console.log("Email: ", "senha1: ", senha1, "senha2: ", senha2, "cnpj: ", cnpj, "nome: ", nome);
+   console.log("Email: ", email, "senha1: ", senha1, "senha2: ", senha2, "cnpj: ", cnpj, "nome: ", nome);
    sessionStorage.setItem('email', email);
    sessionStorage.setItem('senha1', senha1);
    sessionStorage.setItem('senha2', senha2);
