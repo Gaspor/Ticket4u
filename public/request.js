@@ -15,7 +15,7 @@ async function request(data, endpoint, method) {
 
     const json = await response.json();
     if (json.message == 'jwt expired') {
-        const tokens = await request({}, 'user/refresh_token', 'GET');
+        const tokens = await request(data, 'login', 'POST');
         sessionStorage.setItem('accessToken', tokens.accessToken);
         sessionStorage.setItem('refreshToken', tokens.refreshToken);
         return;
