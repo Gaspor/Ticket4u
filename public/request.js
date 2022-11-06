@@ -4,7 +4,6 @@ async function request(data, endpoint, method) {
     const response = await fetch(url, {
         method: method,
         mode: 'no-cors',
-        referrerPolicy: "unsafe_url",
         headers: {
             'Authorization': 'Bearer ' + sessionStorage.getItem('accessToken'),
             'Accept': '/',
@@ -14,6 +13,7 @@ async function request(data, endpoint, method) {
     });
 
     const json = await response.json();
+    console.log(json);
     if (json.message == 'jwt expired') {
         const tokens = await request(data, 'login', 'POST');
         sessionStorage.setItem('accessToken', tokens.accessToken);
