@@ -2,7 +2,9 @@ async function request(data, endpoint, method) {
     //const url = 'http://localhost:3000/api/v1/' + endpoint;
     const url = 'https://gaspor-apis.herokoapp.com/api/v1/' + endpoint;
     const response = await fetch(url, {
-        method: method, 
+        method: method,
+        mode: 'no-cors',
+        referrerPolicy: "unsafe_url",
         headers: {
             'Authorization': 'Bearer ' + sessionStorage.getItem('accessToken'),
             'Accept': '/',
