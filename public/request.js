@@ -5,7 +5,6 @@ async function request(data, endpoint, method) {
         method: method,
         mode: 'no-cors',
         headers: {
-            'Authorization': 'Bearer ' + sessionStorage.getItem('accessToken'),
             'Accept': '/',
             'Content-Type': 'application/json' 
         },
